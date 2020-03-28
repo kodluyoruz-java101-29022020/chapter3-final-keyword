@@ -4,13 +4,13 @@ public class Product {
 
 	// "final" değişkenlere değer ataması bir kez yapılabilir.
 	// Burada olduğu gibi tanımlar tanımlamaz değer ataması yapabiliyoruz.
-	private final long maxPrice = 1000000;
+	protected final long maxPrice = 1000000;
 	
 	// Ya da ilk değer atamasını kurucu metot içinde değer atayabiliriz.
 	// private final long maxPrice;
 	
 	
-	private long price;
+	protected long price;
 
 	public Product() {
 		// maxPrice = 1000000;

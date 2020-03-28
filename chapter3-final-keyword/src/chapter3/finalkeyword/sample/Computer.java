@@ -4,9 +4,12 @@ package chapter3.finalkeyword.sample;
 public final class Computer extends Product {
 
 	// Alt sınıfta bu metodu override etmenize izin vermeyecektir.
+	
+	/*
 	@Override
 	public boolean isPriceGreaterThanMaxPrice() {
 		
 		return super.price > super.maxPrice;
 	}
+	*/
 }
